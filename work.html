@@ -20,12 +20,115 @@
   <link rel="apple-touch-icon" sizes="180x180" href="">
   <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
   <script src="js/main.js"></script>
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
 </head>
 <body>
+  <header class="header">
+    <div class="header__inner wrapper">
+      <h1 class="site-title">
+        <a href="index.html"><img src="images/logo.svg" alt="双海工業株式会社"></a>
+      </h1>
+      <nav class="header__nav">
+        <ul>
+          <li><a href="company.html">企業情報</a></li>
+          <li><a href="work.html">実績紹介</a></li>
+          <li><a href="news.html">ニュース</a></li>
+          <li><a href="privacy.html">お問い合わせ</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div class="page-title-box wrapper">
+      <h2 class="page-title">実績紹介</h2>
+    </div>
+    <section class="public-project">
+      <div class="public-project__inner wrapper">
+        <h3 class="section-title">公共事業</h3>
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div>
+                <h4>2022年 公共事業プロジェクト1A</h4>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div>
+                <h4>2022年 公共事業プロジェクト2A</h4>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div>
+                <h4>2022年 公共事業プロジェクト2A</h4>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </div>
+    </section>
+    <section class="housing">
+      <div class="housing__inner wrapper">
+        <h3 class="section-title">住宅・マンション</h3>
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div>
+                <h4>2022年 マンション・住宅プロジェクト1A</h4>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div>
+                <h4>2022年 マンション・住宅プロジェクト1A</h4>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div>
+                <h4>2022年 マンション・住宅プロジェクト1A</h4>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </div>
+    </section>
+    <section class="contact">
+      <ul class="contact__box">
+        <li class="contact__left">
+          <p>お問い合わせ</p>
+          <p>お仕事、その他に関するお問い合わせは、電話またはフォームからお気軽にご連絡ください。</p>
+        </li>
+        <li class="contact__right">
+          <div class="contact__right__left">
+            <p>お電話でのお問い合わせ</p>
+            <p>03-0000-0000</p>
+          </div>
+          <div class="contact__right__right">
+            <p>フォームでのお問い合わせ</p>
+            <a href="#">お問い合わせ</a>
+          </div>
+        </li>
+      </ul>
+    </section>
 
+  </main>
+  <footer class="footer">
+    <div class="footer__inner wrapper">
+      <ul class="footer__list">
+        <li class="footer__item"><a href="privacy.html">プライバシーポリシー</a></li>
+        <li class="footer__item"><a href="privacy.html">お問い合わせ</a></li>
+      </ul>
+      <p>&copy; Futami Industry CO., LTD. ALL RIGHTS RESERVED.</p>
+    </div>
+  </footer>
 </body>
 </html>
