@@ -24,8 +24,8 @@ menuOpen.addEventListener('click', () => {
         translate: ['2rem', 0],
       },
       {
-        duration: 2400,
-        delay: 300 * index,
+        duration: 1000,
+        delay: 0 * index,
         easing: 'ease',
         fill: 'forwards',
       }
@@ -42,22 +42,22 @@ menuClose.addEventListener('click', () => {
 });
 
 const swiper = new Swiper('.sample-slider', {
-  loop: true,                         //ループ
+  loop: true,                     
   slidesPerView: 2,
   centeredSlides : true,
   spaceBetween: 20, 
-  pagination: {                       //ページネーション（ドット）
+  pagination: {                       
       el: '.up-pagination',
       clickable: true,
   },
 })
 
 const swiperSecond = new Swiper('.sample-slider-second', {
-  loop: true,                         //ループ
+  loop: true,                       
   slidesPerView: 2,
   centeredSlides : true,
   spaceBetween: 20, 
-  pagination: {                       //ページネーション（ドット）
+  pagination: {                      
       el: '.down-pagination',
       clickable: true,
   },
