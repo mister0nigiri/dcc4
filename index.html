@@ -20,10 +20,7 @@
   <link rel="apple-touch-icon" sizes="180x180" href="">
   <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
   <link rel="stylesheet" href="css/style.css">
-  <script src="js/main.js"></script>
-  <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
-  <![endif]-->
+  <script src="js/main.js" defer></script>
 </head>
 <body>
   <header class="header">
@@ -38,6 +35,26 @@
           <li><a href="news.html">ニュース</a></li>
           <li><a href="contact.html">お問い合わせ</a></li>
         </ul>
+      </nav>
+      <nav class="sp-nav">
+        <button id="menu-open" class="btn-menu hamburger" type="button">
+          <span class="hamburger__line"></span>
+          <span class="hamburger__line"></span>
+          <span class="hamburger__line"></span>
+        </button>
+        <div id="menu-panel">       
+          <button id="menu-close" class="btn-menu cross" type="button">
+            <span class="cross__line"></span>
+            <span class="cross__line"></span>
+          </button>
+          <ul class="menu-list">
+            <li><a href="index.html">トップ</a></li>
+            <li><a href="company.html">企業情報</a></li>
+            <li><a href="work.html">実績紹介</a></li>
+            <li><a href="news.html">ニュース</a></li>
+            <li><a href="contact.html">お問い合わせ</a></li>
+          </ul>
+        </div>
       </nav>
     </div>
   </header>
