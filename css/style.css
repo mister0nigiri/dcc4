@@ -394,13 +394,10 @@ li{
   width: 72%;
 }
 
-.google-map{
+.google-map iframe {
   height: 450px;
-  background-color: #f2f2f2;
-  font-size: 3rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  width: 100%;
+  border: 0;
 }
 
 .location-text{
@@ -1119,9 +1116,9 @@ input[type="checkbox"]:checked+span:after {
     margin-top: 30px;
     width: 95%;
   }
-  .google-map{
+
+  .google-map iframe {
     height: 350px;
-    font-size: 1.5rem;
   }
 
   /* work.html */
@@ -1253,5 +1250,4 @@ input[type="checkbox"]:checked+span:after {
     white-space: nowrap;
     border-right: 1px solid #000;
   }
-
 }
